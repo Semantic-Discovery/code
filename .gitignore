@@ -1,0 +1,144 @@
+#Add files and folders which you want to push
+#!! ERROR: ubuntu is undefined. Use list command to see defined gitignore types !!#
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+
+### Eclipse ###
+.cache-main
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+
+### Java ###
+*.class
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+*.*~
+
+# Other possible directory or files
+web-crawler/target/
+web-crawler/bin/*
+web-crawler/.gitignore
+web-crawler/.settings
+web-crawler/.settings/*
+web-crawler/target/*
+web-crawler/classes/artifacts/alphastack_commons_ear_exploded/*
+web-crawler/classes/artifacts/*
+web-crawler/classes/*
+web-crawler/.idea/*
+web-crawler/ObjectStore/*
+web-crawler/PutObjectStoreDirHere/*
+
+
+stanford-nlp-api/target/
+stanford-nlp-api/bin/*
+stanford-nlp-api/.gitignore
+stanford-nlp-api/.settings
+stanford-nlp-api/.settings/*
+stanford-nlp-api/target/*
+stanford-nlp-api/classes/artifacts/alphastack_commons_ear_exploded/*
+stanford-nlp-api/classes/artifacts/*
+stanford-nlp-api/classes/*
+stanford-nlp-api/.idea/*
+stanford-nlp-api/ObjectStore/*
+stanford-nlp-api/PutObjectStoreDirHere/*
+
+real-time-data-processor/target/
+real-time-data-processor/bin/*
+real-time-data-processor/.gitignore
+real-time-data-processor/.settings
+real-time-data-processor/.settings/*
+real-time-data-processor/target/*
+real-time-data-processor/classes/artifacts/alphastack_commons_ear_exploded/*
+real-time-data-processor/classes/artifacts/*
+real-time-data-processor/classes/*
+real-time-data-processor/.idea/*
+real-time-data-processor/ObjectStore/*
+real-time-data-processor/PutObjectStoreDirHere/*
+
+semantic-web-ui/target/
+semantic-web-ui/bin/*
+semantic-web-ui/.gitignore
+semantic-web-ui/.settings
+semantic-web-ui/.settings/*
+semantic-web-ui/target/*
+semantic-web-ui/classes/artifacts/alphastack_commons_ear_exploded/*
+semantic-web-ui/classes/artifacts/*
+semantic-web-ui/classes/*
+semantic-web-ui/.idea/*
+semantic-web-ui/ObjectStore/*
+semantic-web-ui/PutObjectStoreDirHere/*
